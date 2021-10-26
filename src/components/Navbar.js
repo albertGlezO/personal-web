@@ -20,7 +20,7 @@ function Navbar() {
                     <a className="navbar-item" href="#home">Home</a>
                     <a className="navbar-item" href="#biography">Biography</a>
                     <a className="navbar-item" href="#experience">Experience</a>
-                    <a className="navbar-item" href="#work">Work</a>
+                    <a className="navbar-item" href="#work">Skills</a>
                     <a className="navbar-item" href="#blog">Blog</a>
                     <a className="navbar-item" href="#contact">Contact</a>
                 </div>
