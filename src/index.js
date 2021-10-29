@@ -4,14 +4,13 @@ import ReactDOM from 'react-dom';
 import 'bulma/css/bulma.min.css';
 
 import Navbar from './components/Navbar';
-import Body from './components/Body';
+import Home from './components/Home';
+import Biography from './components/Biography';
+import Skills from './components/Skills';
+import Blog from './components/Blog';
 import Footer from './components/Footer';
 
 ReactDOM.render(
-  <div>
-    <Navbar/>
-    <Body/>
-    <Footer/>
-  </div>,
+  <div><Navbar/><Home/><Biography/><Skills/><Blog/><Footer/></div>,
   document.getElementById('root')
 );
