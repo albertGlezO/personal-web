@@ -1,6 +1,10 @@
 import React from 'react';
 
+import ExperienceDetail from './ExperienceDetail';
+
 function Experience() {
+    const [isActive, setisActive] = React.useState(false)
+
     return (
         <div className="mb-6">
             <div className="container">
@@ -12,32 +16,32 @@ function Experience() {
                 <hr/>
                 <div className="columns">
                     <div className="column">
-                        <figure className="image is-128x128">
+                        <figure className="image is-128x128" onClick={() => {setisActive(!isActive)}}>
                             <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder"/>
                         </figure>
                     </div>
                     <div className="column">
-                        <figure className="image is-128x128">
+                        <figure className="image is-128x128" onClick={() => {setisActive(!isActive)}}>
                             <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder"/>
                         </figure>
                     </div>
                     <div className="column">
-                        <figure className="image is-128x128">
+                        <figure className="image is-128x128" onClick={() => {setisActive(!isActive)}}>
                             <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder"/>
                         </figure>
                     </div>
                     <div className="column">
-                        <figure className="image is-128x128">
+                        <figure className="image is-128x128" onClick={() => {setisActive(!isActive)}}>
                             <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder"/>
                         </figure>
                     </div>
                     <div className="column">
-                        <figure className="image is-128x128">
+                        <figure className="image is-128x128" onClick={() => {setisActive(!isActive)}}>
                             <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder"/>
                         </figure>
                     </div>
                     <div className="column">
-                        <figure className="image is-128x128">
+                        <figure className="image is-128x128" onClick={() => {setisActive(!isActive)}}>
                             <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder"/>
                         </figure>
                     </div>
@@ -64,6 +68,7 @@ function Experience() {
                     </div>
                 </div>
             </nav>
+            <ExperienceDetail isActive={isActive} setisActive={setisActive}/>
         </div>
     );
 }
