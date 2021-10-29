@@ -4,7 +4,7 @@ function Navbar() {
     const [isActive, setisActive] = React.useState(false)
     
     return (
-        <nav className="navbar is-danger" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-danger is-fixed-top has-spaced-navbar-fixed-top" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <a className="navbar-item" href="/"><i className="fas fa-code"></i></a>
                 <a role="button" className={`navbar-burger ${isActive ? 'is-active' : ''}`} href="#!" aria-label="menu" aria-expanded="false" data-target="mymenu" onClick={() => {
@@ -20,7 +20,7 @@ function Navbar() {
                     <a className="navbar-item" href="#home">Home</a>
                     <a className="navbar-item" href="#biography">Biography</a>
                     <a className="navbar-item" href="#experience">Experience</a>
-                    <a className="navbar-item" href="#work">Skills</a>
+                    <a className="navbar-item" href="#skills">Skills</a>
                     <a className="navbar-item" href="#blog">Blog</a>
                     <a className="navbar-item" href="#contact">Contact</a>
                 </div>

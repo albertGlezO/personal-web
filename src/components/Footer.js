@@ -2,17 +2,17 @@ import '../styles/Footer.css';
 
 function Footer() {
     return (
-        <footer className="footer has-background-danger">
+        <footer className="footer has-background-danger" id="contact">
             <div className="content has-text-centered">
                 <div className="columns">
                     <div className="column is-offset-4 is-1">
-                        <a href="https://mx.linkedin.com/in/albertgonzalezochoa" className="has-text-white" target="_blank"><i className="fab fa-linkedin fa-3x"></i></a>
+                        <a href="https://mx.linkedin.com/in/albertgonzalezochoa" className="has-text-white" target="_blank" rel="noreferrer"><i className="fab fa-linkedin fa-3x"></i></a>
                     </div>
                     <div className="column is-1">
-                        <a href="https://github.com/albertGlezO" className="has-text-white" target="_blank"><i className="fab fa-github fa-3x"></i></a>
+                        <a href="https://github.com/albertGlezO" className="has-text-white" target="_blank" rel="noreferrer"><i className="fab fa-github fa-3x"></i></a>
                     </div>
                     <div className="column is-1">
-                        <a href="#!" className="has-text-white"><i className="fab fa-whatsapp fa-3x"></i></a>
+                        <a href=" https://wa.me/523122290106?text=Hi%20Albert%20Gonzaléz" className="has-text-white" target="_blank" rel="noreferrer"><i className="fab fa-whatsapp fa-3x"></i></a>
                     </div>
                     <div className="column is-1">
                         <a href="#!" className="has-text-white"><i className="fab fa-telegram fa-3x"></i></a>
